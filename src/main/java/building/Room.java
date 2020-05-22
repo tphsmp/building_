@@ -27,7 +27,7 @@ public class Room implements IRoom {
     }
 
     //создаем лист осветительных приборов в помещении
-    private List<Lighting> lamps = new ArrayList<>();
+    List<Lighting> lamps = new ArrayList<>();
 
     //реализация метода добавления ламп в помещение и обработки исключения превышения освещенности
     @Override
@@ -70,7 +70,7 @@ public class Room implements IRoom {
     }
 
     //создаем лист предметов мебели в помещении
-    private List<Interiors> interior = new ArrayList<>();
+    List<Interiors> interior = new ArrayList<>();
 
     //реализация метода добавления мебели в помещение и обработки исключения превышения занимаемой площади
     @Override
